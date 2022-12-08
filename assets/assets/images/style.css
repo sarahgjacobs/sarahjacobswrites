@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    justify-content: flex-start;
+  }
+  
+  header {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    background: #5b7d5b;
+    color: #fff;
+    justify-content: space-between;
+  }
+  
+  nav {
+    width: 60%;
+  }
+  
+  nav ul {
+    display: flex;
+    background-color: #82a387;
+    justify-content: space-around;
+  }
+  
+  .about {
+    background-color: #bfbfbf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-content {
+    width: 60%;
+    padding: 2em;
+  }
+  
+  .about img {
+    width: 20%;
+    justify-content: right;
+    padding: 1%;
+  }
+  
+  .about h2 {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #project1,
+  #project2,
+  #project3 {
+    position: relative;
+  }
+  
+  .project div {
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  .project img {
+    width: 100%;
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: #bfbfbf;
+  }
+  
+  #project2,
+  #project3 {
+    width: 50%;
+  
+  }
+  
+  h2 {
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+  }
+  
+  .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+    background: #1f3f21;
+    color: #fff;
+    margin-top: auto;
+    justify-content: space-around;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    header,
+    main {
+      flex-direction: column;
+    }
+  
+    section {
+      width: 100%;
+      text-align: center;
+      padding-right: 0;
+    }
+  
+    .about img {
+      width: 30%;
+    }
+  
+    #project2,
+    #project3 {
+      width: 50%;
+  
+    }
+  
+    footer {
+      padding-right: 0%;
+    }
+  }
