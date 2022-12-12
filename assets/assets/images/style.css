@@ -20,15 +20,15 @@ body {
   
   nav {
     width: 60%;
-  }
-  
-  nav ul {
+  } */
+
+nav ul {
     display: flex;
     background-color: #82a387;
     justify-content: space-around;
-  }
-  
-  .about {
+}
+
+.about {
     background-color: #bfbfbf;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
