@@ -1,4 +1,10 @@
-body {
+
+
+.cinzel {
+  font-family: 'Cinzel Decorative', cursive;
+font-family: 'Spectral', serif;
+}
+/* body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -21,7 +27,7 @@ body {
   nav {
     width: 60%;
   } */
-
+/*
 nav ul {
     display: flex;
     background-color: #82a387;
@@ -129,4 +135,4 @@ nav ul {
     footer {
       padding-right: 0%;
     }
-  }
+  } */

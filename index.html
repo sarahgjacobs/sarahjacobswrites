@@ -1,64 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/assets/images/style.css" />
-    <title>Sarah Jacobs Writes</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Spectral:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title class="cinzel">Sarah Jacobs Writes</title>
 </head>
 
-<header class="header">
-    <div class="container">
-    <h1>Sarah Jacobs Writes</h1>
-    <nav>
-        <ul>
-            <ui><a href="#about">About Sarah</a></ui>
-            <ui><a href="#cor">Commendation for Reforia</a></ui>
-            <ui><a href="#thecircuit">The Circuit</a></ui>
-            <ui><a href="#levelup">Level Up</a></ui>
-        </ul>
-    </nav>
-</div>
-</header>
+<style>
+    body {
+      background-image: url('./assets/assets/images/images/tijana-drndarski-JWmNS05a_Hs-unsplash.jpg');
+      repeat: none;
+    }
+    .card {
+        background-image: url('./assets/assets/images/images/milad-fakurian-Tc_4PdN-Fq0-unsplash.jpg');
+    }
+    </style>
 
-<section id="about" class="about">
+<nav class="navbar navbar-expand-lg navbar-light bg-light text-dark cinzel">
+    <a class="navbar-brand" href="#">Sarah Jacobs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#inprogress">In Progress</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#completed">Completed</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--ABOUT SECTION-->
+<section class="bg-light text-dark p-4 text-center text-sm-start">
     <div class="container">
-        <div class="about-content">
-            <h2>About Sarah Jacobs</h2>
-            <p>This is where I talk all about myself</p>
+        <h2 class="cinzel">About Sarah Jacobs</h2>
+
+        <div class="about-content d-sm-flex align-items-center justify-content-between p-3">
+
+            <p class="cinzel mr-5">Sarah is an avid story teller who seeks to bring to life the little worlds inside her
+                head. Already on
+                her
+                fourth book, Sarah primarily writes speculative fiction ranging anywhere from tech stories to ancient
+                fighting states. If she's not writing her next story, she's most likely petting her dog, watching
+                cartoons,
+                trying a new hobby, going for a run, taking a nap, or programming this website. Stay tuned to see what
+                Sarah
+                does next!</p>
+            <img src="./assets/assets/images/images/aboutsarah.jpg" class="about w-25"
+                alt="sarah's about page explaining her hobbies and stories" />
         </div>
     </div>
-    <img src="" class="about" alt="sarah's about page explaining her hobbies and stories" />
 </section>
-<main class="book" id="book">
-    <h2>Check Out Sarah's Stories</h2>
-    <section id="cor" class="book">
-        <a href=""><img src="./assets/assets/images/images/levelup.jpg" alt="commendation for reforia, a book about fighting for survival and good verses evil"></a>
-        <div id="banner">
-            <h3>Commendation for Reforia - 2022</h3>
-            <p>This is the latest and greatest, a story packed full of twists and strong tropes. Take a dip in to see how you like it!</p>
-        </div>
-    </section>
-    <section id="thecircuit" class="book">
-        <a href=""><img src="./assets/assets/images/images/TCTC.jpeg" alt="the circuit, a book about hackers and programming groups trying to winl"></a>
-        <div>
-            <h3>The Circuit - 2021</h3>
-            <p> The Circuit is a fast-paced story about hackers vs programmers in a fight of good vs. evil. Which side will win in the end?</p>
-        </div>
-    </section>
-    <section id="levelup" class="book">
-        <a href=""><img src="./assets/assets/images/images/levelup.jpg" alt="level up, a book set in a dystopia where a girl has amnesia"></a>
-        <div>
-            <h3>Level Up - 2014</h3>
-            <p>Level Up takes place in a dystopian world where only the strongest people move up in the ranks. But what happens when the strongest girl there loses her memory and the people around her tell her differnt things about who she is?</p>
-        </div>
 
+<!--IN PROGRESS SECTION-->
+<main class="book p-5" id="inprogress">
+    
+    <h2 class="cinzel mb-4 text-center">Sarah is currently writing...</h2>
+    <section id="book" class="book">
+        <a href="./assets/assets/images/images/afk.PNG"></a>
+        <div class="card p-5 mb-5" style="width: 40rem;">
+            
+            <img class="card-img-top" src="./assets/assets/images/images/afk.PNG" alt="Card image cap">
+            <div class="card-body">
+                <h2>Advice for Killers</h2>
+                <p class="cinzel font-italic font-weight-light text-secondary">Sci-fi, Action, Drama, Romance</p>
+
+                <p class="card-text">AFK is a riveting, high-class story about the illusive SecTech companies that guard
+                    the nation's darkest secrets, and the people who run them. The story begins with the death of
+                    Securos' CEO--a murder, it seems. Though no evidence arises. Peter, the next in line to inherit
+                    Securos, is pulled from his perfect world far from technology and schemes, and though he doesn't
+                    desire the reigns of Securos' billion-dollar clients, he must accept the race ahead of him if he
+                    wants to keep the nation's security out of greedy hands. But choosing Securos might mean pulling the
+                    love of his life into the deadly climb to the top. In the end, only one can stand.</p>
+            </div>
+        </div>
     </section>
+
+    <!--COMPLETED BOOKS, TWO IN A COLUMN AND ONE IN A ROW-->
+    <h2 class="p-4 cinzel text-center" id="completed">Sarah's Completed Books:</h2>
+    <div class="container p-1">
+        <div class="row g-4">
+            <div class="col">
+                <div class="card p-4 mb-5" style="width: 40rem bg-light text-dark">
+                    <div class="card-body">
+                        <div class="h2 mb-3">
+                            <img class="card-img-top p-1 mb-3" src="./assets/assets/images/images/1.PNG"> Commendation
+                            for
+                            Reforia -
+                            2022
+
+                        </div>
+                        <p class="cinzel font-italic font-weight-light text-secondary">Historical Fiction, Action,
+                            Adventure, Romance</p>
+
+                        <p class="card-text">
+                            The Flat Shores was a notoriously dark land for the worst of the criminals to live locked away forever,
+                            but Kel isn't one of the criminals--her parents were before they died. The only way for her to escape her cruel upbringing
+                            was to recieve a pass from a Consul, one of the few highly qualified fighters of the
+                            land. But it isn't every day such an esteemed fighter dares to walk into the Flat Shores.
+                            Evil arrives one morning with intentions to gather as many abled bodies as it can, and Kel
+                            happens to be swept up into his palm. Greedy for loyal soldies, Synth uses his charisma to win over the children like Kel, children that inherited the strength of their parents but had no formal training in order to weild it. Knowing her fate was beginning to darken under Synth's training, Kel escapes
+                            with her quick wits and the trust of a local Headmaster. Unable to help her more than that, the
+                            Headmaster sends her to Hollowfall where one of Reforia's top six Consuls, Keystone, has an entire organization of spys set up in order to gether intellegence on Synth. Keystone is a
+                            man of little faith or sympathy for his students, escpecially toward Kel who is stubborn, hot headed, and worst of all, connected to Synth. Under Keystone's tough regimen, Kel will be
+                            tested to the edge of her abilities until it's finally time for Synth to return to claim
+                            what's his. History will unfold once again as they states come head to head. Will Keystone trust Kel enough, will her strength fail her, or will death find
+                            them all first?
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+
+                <div class="card p-5 mb-5" style="width: 40rem bg-light text-dark;">
+                    <img class="card-img-top" src="./assets/assets/images/images/TCTC.jpeg"
+                        alt="The Circuit is a fast-paced story about hackers vs programmers in a fight of good verses evil">
+                    <div class="card-body ">
+                        <div id="banner">
+                            <h2>The Circuit - 2021</h2>
+                            <p class="cinzel font-italic font-weight-light text-secondary">Sci-Fi, Action, Romance</p>
+
+                            <p> Thriving behind wires and computer screens on the electric campus of Cadella Premiere
+                                University (CPU), Meili Hane seeks to become the best programmer of her generation, not
+                                for the fame and glory, but to do what police never did: find and defeat the illusive
+                                programmers who caused her father's accident. <br> As Meili struggles to follow each
+                                meticulous law of the programming world, news of an underground group of hackers
+                                famously known as The Circuit bend the laws in order to shatter harmful companies,
+                                incriminate enemies on the loose, and go where no other programmer can reach them...a
+                                place Meili needs to go. During a high-stakes competition, Meili's unique and dark
+                                competition style draws the attention of The Circuit's leader, Issac Young, but a more
+                                dangerous opponent enters the game, and he has eyes for Meili's skills as well.
+                                <br>Peter Glascow, long time best friend and rival of Meili Hane's father, is engrossed
+                                by the untouchable power that programming brings, and his desires multiply when he sees
+                                Meili's inherited skills. GreaTech, Glascow's informibable organization of programmers,
+                                seeks to create an empire of technology that will monopolize the city and the very
+                                resources Meili's dad needs to survive. Meili is pressed hard between the police that
+                                chase close at her heels and the programmers that threaten to shut her down. When at
+                                last her pursures close in, Meili will have to hide even from the ones she loves most in
+                                order to save her family. But when she returns, she'll be the virus that destroyes them
+                                all.
+                            </p>
+
+                        </div>
+                    </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+        <!--BOOK ON NEW ROW-->
+        <div class="row w-50">
+            <div class="card p-5 h2mb-5" style="width: 40rem bg-light text-dark;">
+                <img class="card-img-top" src="./assets/assets/images/images/level up.jpg"
+                    alt="The Circuit is a fast-paced story about hackers vs programmers in a fight of good verses evil">
+                <div class="card-body">
+                    <div id="banner">
+                        <h2>Level Up - 2014</h2>
+                        <p class="cinzel font-italic font-weight-light text-secondary">Dystopia, Fantasy, Action,
+                            Mystery, Romance</p>
+
+                        <p> <b>She Will fight the nightmares of her past.</b><br>Level Up takes place in a dystopian
+                            world where only the strongest people move up in the
+                            ranks. But
+                            what
+                            happens when the strongest girl there loses her memory and the people around her tell her
+                            differnt
+                            things about who she is?
+                        </p>
+
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 
 <body>
-    
+
 </body>
+
+<!--FOOTER-->
+<div class="card">
+    <div class="card-header">
+
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0 p-3 cinzel text-secondary">
+            <p>Let the flowers grow where they will, for the winter is fierce and the strong will remain.</p>
+            <footer class="blockquote-footer"> <cite title="Source Title">A small thought.</cite></footer>
+        </blockquote>
+    </div>
+</div>
+
 </html>
